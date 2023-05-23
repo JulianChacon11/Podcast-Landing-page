@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Amaranth&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {},
+      };
+    </script>
+  </head>
+  <body>
+    <header class="flex relative">
+      <div class="flex flex-col w-full h-[720px] bg-[#015239]">
+        <div class="grid grid-cols-3 gap-4 items-center w-full">
+          <img
+            class="col-start-2 justify-self-center"
+            src="/imgs/Group 4.png"
+            alt="logo"
+          />
+          <div class="flex w-[239px] h-[44px] justify-self-center gap-[20px]">
+            <button
+              class="text-[white] text-[20px] hover:bg-emerald-700/90 rounded-lg px-[10px] font-['Aladin']"
+            >
+              Login
+            </button>
+            <button
+              class="text-[white] text-[20px] hover:bg-emerald-700/90 rounded-lg px-[10px] font-['Aladin']"
+            >
+              Try for free
+            </button>
+          </div>
+        </div>
+        <img
+          class="justify-self-end absolute bottom-0"
+          src="/imgs/image 30.png"
+          alt="img-left-side"
+        />
+        <div class="flex w-full justify-center">
+          <div
+            class="flex flex-col items-center justify-between w-[55%] pt-[200px]"
+          >
+            <div
+              class="flex flex-col gap-4 items-center justify-items-center px-[10%]"
+            >
+              <h1
+                class="text-[50px] font-[400] text-center text-[white] font-['Aladin']"
+              >
+                Talking best and trending topics.
+              </h1>
+              <p
+                class="text-[20px] text-center font-['Amaranth'] font-[400] text-[#B8FFE1]"
+              >
+                Join us exciting conversations about UI/UX
+                design,products,marketing, and so much more. Our awesome guests
+                are industry experts.
+              </p>
+              <button
+                class="w-[168px] h-[45px] bg-[#7D56FC] font-['Aladin'] text-[white] rounded-md"
+              >
+                Browse podcast
+              </button>
+            </div>
+            <div class="flex items-center absolute bottom-[10px]">
+              <img src="/imgs/Frame 2.png" alt="people-listening" />
+              <p
+                class="text-[18px] text-[white] font-[400] font-['Amaranth'] pl-[8px]"
+              >
+                More people are listnening on websiode.
+              </p>
+            </div>
+          </div>
+          <img
+            class="w-[25%] absolute right-0 top-[30%]"
+            src="/imgs/image 29.png"
+            alt="img-right-side"
+          />
+        </div>
+      </div>
+    </header>
+    <section
+      class="flex flex-col h-[360px] bg-[#113A2D] items-center justify-center"
+    >
+      <p
+        class="text-[#B8FFE1] text-[22px] font-[400] text-center font-['Amaranth']"
+      >
+        Listen from the best podcast platform
+      </p>
+      <div class="flex gap-[80px] pt-[60px]">
+        <img src="/imgs/Group 9.png" alt="" />
+        <img src="/imgs/Group 6.png" alt="" />
+        <img src="/imgs/Group 5.png" alt="" />
+        <img src="/imgs/Group 7.png" alt="" />
+        <img src="/imgs/Group 8.png" alt="" />
+      </div>
+    </section>
+    <section class="flex flex-col h-[845px] bg-[#E4FAEE] items-center w-full">
+      <h1
+        class="text-[50px] text-[#113A2D] font-[400] pt-[100px] pb-[40px] font-['Aladin']"
+      >
+        Listen the best podcasts on the internet
+      </h1>
+      <ul
+        class="flex gap-[50px] text-[20px] font-[400] text-[#113A2D] pb-[50px] font-['Amaranth']"
+      >
+        <li
+          class="hover:text-[white] hover:bg-[#113A2D] px-[20px] py-[10px] rounded-md"
+        >
+          All
+        </li>
+        <li
+          class="px-[20px] hover:bg-[#113A2D] hover:text-[white] py-[10px] rounded-md"
+        >
+          Design
+        </li>
+        <li
+          class="px-[20px] hover:bg-[#113A2D] hover:text-[white] py-[10px] rounded-md"
+        >
+          Development
+        </li>
+        <li
+          class="px-[20px] hover:bg-[#113A2D] hover:text-[white] py-[10px] rounded-md"
+        >
+          Marketing
+        </li>
+        <li
+          class="px-[20px] hover:bg-[#113A2D] hover:text-[white] py-[10px] rounded-md"
+        >
+          Health
+        </li>
+        <li
+          class="px-[20px] hover:bg-[#113A2D] hover:text-[white] py-[10px] rounded-md"
+        >
+          More
+        </li>
+      </ul>
+      <div class="flex w-full gap-8 items-center justify-center pb-[60px]">
+        <div
+          class="flex flex-col w-[350px] h-[334px] bg-white px-[10px] font-['Amaranth']"
+        >
+          <div
+            class="grid grid-cols-2 gap-0 text-[16px] text-start py-[12px] font-['Amaranth']"
+          >
+            <h1 class="text-[#113A2D]">Joe Root</h1>
+            <h1 class="text-[#113A2D]">Episode 3 - 1hr 25mins</h1>
+          </div>
+          <h1 class="text-[20px] leading-[24px]">
+            10 easy way to became a UI/UX designer in 2022
+          </h1>
+          <img
+            class="w-[322px] py-[10px] self-center"
+            src="/imgs/Frame 14 (2).png"
+            alt="xd"
+          />
+        </div>
+        <div
+          class="flex flex-col w-[350px] h-[334px] bg-white px-[10px] font-['Amaranth']"
+        >
+          <div class="grid grid-cols-2 gap-0 text-[16px] text-start py-[12px]">
+            <h1 class="text-[#113A2D]">Joe Root</h1>
+            <h1 class="text-[#113A2D]">Episode 3 - 1hr 25mins</h1>
+          </div>
+          <h1 class="text-[20px] leading-[24px]">
+            10 easy way to became a UI/UX designer in 2022
+          </h1>
+          <img
+            class="w-[322px] py-[10px] self-center"
+            src="/imgs/Frame 14 (1).png"
+            alt="xd"
+          />
+        </div>
+        <div
+          class="flex flex-col w-[350px] h-[334px] bg-white px-[10px] font-['Amaranth']"
+        >
+          <div class="grid grid-cols-2 gap-0 text-[16px] text-start py-[12px]">
+            <h1 class="text-[#113A2D]">Joe Root</h1>
+            <h1 class="text-[#113A2D]">Episode 3 - 1hr 25mins</h1>
+          </div>
+          <h1 class="text-[20px] leading-[24px]">
+            10 easy way to became a UI/UX designer in 2022
+          </h1>
+          <img
+            class="w-[322px] py-[10px] self-center"
+            src="/imgs/Frame 14.png"
+            alt="xd"
+          />
+        </div>
+      </div>
+      <button
+        class="w-[106px] h-[46px] text-white bg-[#113A2D] rounded-md font-['Amaranth']"
+      >
+        Explore
+      </button>
+    </section>
+
+    <section class="flex flex-col h-[575px] items-center py-[80px] px-[5%]">
+      <h1 class="text-[50px] text-[#113A2D] font-['Aladin']">
+        Introducing the best way for podcaster to earn
+      </h1>
+      <div class="flex pt-[50px] gap-8 font-['Amaranth']">
+        <div
+          class="flex flex-col w-[270px] items-center text-center text-[#113A2D]"
+        >
+          <img class="pb-[20px]" src="/imgs/Frame 31.png" alt="" />
+          <h1 class="text-[20px] pb-[10px]">
+            Flexible options for every podcaster
+          </h1>
+          <p>
+            Mix and match options to maximize your earning, and switch at any
+            time to adapt to your goals.
+          </p>
+        </div>
+        <div
+          class="flex flex-col w-[270px] items-center text-center text-[#113A2D]"
+        >
+          <img class="pb-[20px]" src="/imgs/Frame 30.png" alt="" />
+          <h1 class="text-[20px] pb-[10px]">
+            Flexible options for every podcaster
+          </h1>
+          <p>
+            Mix and match options to maximize your earning, and switch at any
+            time to adapt to your goals.
+          </p>
+        </div>
+        <div
+          class="flex flex-col w-[270px] items-center text-center text-[#113A2D]"
+        >
+          <img class="pb-[20px]" src="/imgs/Frame 33.png" alt="" />
+          <h1 class="text-[20px] pb-[10px]">
+            Flexible options for every podcaster
+          </h1>
+          <p>
+            Mix and match options to maximize your earning, and switch at any
+            time to adapt to your goals.
+          </p>
+        </div>
+        <div
+          class="flex flex-col w-[270px] items-center text-center text-[#113A2D]"
+        >
+          <img class="pb-[20px]" src="/imgs/Frame 32.png" alt="" />
+          <h1 class="text-[20px] pb-[10px]">
+            Flexible options for every podcaster
+          </h1>
+          <p>
+            Mix and match options to maximize your earning, and switch at any
+            time to adapt to your goals.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="flex flex-col bg-[#113A2D] w-full items-center justify-evenly relative h-[360px]"
+    >
+      <h1 class="text-[50px] text-[#B8FFE1] font-['Aladin']">
+        Starting a podcast?
+      </h1>
+      <h1 class="text-[32px] text-white font-[700] font-['Amaranth']">
+        Anchor
+      </h1>
+      <p class="w-[350px] text-[16px] text-white text-center font-['Amaranth']">
+        The easiest way to make a podcast. Create and host unlimited episodes,
+        distribute your show everywhere, and make moeny. All for free
+      </p>
+      <button
+        class="bg-[#7D56FC] text-white px-[12px] h-[46px] text-center rounded-md tex-[18px] font-['Amaranth']"
+      >
+        Get started
+      </button>
+      <img
+        class="absolute left-0"
+        src="/imgs/unsplash_GLdeWoLcJFQ.png"
+        alt="izq"
+      />
+      <img
+        class="absolute right-0"
+        src="/imgs/unsplash_cbRYdeuyP3E.png"
+        alt="der"
+      />
+    </section>
+
+    <section
+      class="flex w-full h-[720px] bg-[#E4FAEE] items-center justify-center relative"
+    >
+      <img src="/imgs/Group 3.png" alt="" />
+      <img
+        class="w-[276px] h-[276px] object-cover absolute left-0 top-[90px]"
+        src="/imgs/image 25.png"
+        alt=""
+      />
+      <img
+        class="w-[276px] h-[276px] object-cover absolute left-0 bottom-[30px]"
+        src="/imgs/image 24.png"
+        alt=""
+      />
+      <img
+        class="w-[300px] h-[290px] object-cover absolute top-[50px] left-[290px]"
+        src="/imgs/image 23.png"
+        alt=""
+      />
+      <img
+        class="w-[300px] h-[290px] object-cover absolute left-[290px] top-[355px]"
+        src="/imgs/image 22.png"
+        alt=""
+      />
+
+      <img
+        class="w-[276px] h-[276px] object-cover absolute right-0 top-[90px]"
+        src="/imgs/image 15.png"
+        alt=""
+      />
+      <img
+        class="w-[276px] h-[276px] object-cover absolute right-0 bottom-[30px]"
+        src="/imgs/image 16.png"
+        alt=""
+      />
+      <img
+        class="w-[300px] h-[290px] object-cover absolute top-[50px] right-[290px]"
+        src="/imgs/image 17.png"
+        alt=""
+      />
+      <img
+        class="w-[300px] h-[290px] object-cover absolute right-[290px] top-[355px]"
+        src="/imgs/image 14.png"
+        alt=""
+      />
+    </section>
+    <section
+      class="flex flex-col items-center justify-center bg-[#113A2D] h-[676px] text-[22px] text-white pb-[80px] pt-[80px]"
+    >
+      <h1 class="text-[50px] pb-[40px] pt-[80px] font-['Aladin']">
+        Frequently asked questions
+      </h1>
+      <ul class="font-['Amaranth']">
+        <li class="pb-[50px] text-[#B8FFE1]">
+          <span class="text-[30px] pr-[15px]">></span> How do I get my podcast
+          on Spotify?
+        </li>
+        <li class="pb-[50px] text-[#B8FFE1]">
+          <span class="text-[30px] pr-[15px]">></span> How often is my podcast
+          data updated?
+        </li>
+        <li class="pb-[50px] text-[#B8FFE1]">
+          <span class="text-[30px] pr-[15px]">></span> Who are my listeners and
+          followers?
+        </li>
+        <li class="pb-[50px] text-[#B8FFE1]">
+          <span class="text-[30px] pr-[15px]">></span> an I export a report with
+          my data?
+        </li>
+        <li class="pb-[50px] text-[#B8FFE1]">
+          <span class="text-[30px] pr-[15px]">></span> How are starts and
+          streams counted?
+        </li>
+      </ul>
+    </section>
+    <section
+      class="flex flex-col gap-[40px] bg-[#08251C] h-[370px] items-center justify-center"
+    >
+      <img src="/imgs/Group 4.png" alt="" />
+      <ul
+        class="flex w-[30%] items-center justify-around bg-emerald-700/90 rounded-lg p-[10px] text-white font-['Amaranth']"
+      >
+        <li class="hover:bg-[#08251C] p-[8px] rounded-lg">Home</li>
+        <li class="hover:bg-[#08251C] p-[8px] rounded-lg">Pricing</li>
+        <li class="hover:bg-[#08251C] p-[8px] rounded-lg">About us</li>
+        <li class="hover:bg-[#08251C] p-[8px] rounded-lg">Contact us</li>
+      </ul>
+      <h1 class="text-[20px] font-['Amaranth'] text-[#B8FFE1]">
+        Designed with 💖 Jay vyas
+      </h1>
+    </section>
+  </body>
+</html>
